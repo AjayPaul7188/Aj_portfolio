@@ -16,14 +16,14 @@ export default function Projects() {
         <div className='projects'>
             {projects.map((p, i) => (
             <motion.div className='project-tab' key={i} whileHover={{ scale: 1.05 }}>
-                <img className='project-img' src={p.img} alt='Project pics' />
+                <img className='project-img' src={p.img} alt='Project' />
                 <div>
                     <h3 style={{color: '#a78bfa', marginBottom: '0px'}}>{p.title}</h3>
                     <p className='para' style={{fontSize: '12px'}}>{p.intro}</p>
                 </div>
                 <div style={{display: 'flex', alignItems: 'center'}}>
-                    <button className='btn'><a href={p.github} style={{textDecoration: 'none', color: '#000000', fontWeight: '600'}} target='_blank' rel='noopener norefferer' >GitHub</a></button>
-                    <button className='btn'><a href={p.liveDemo} style={{textDecoration: 'none', color: '#000000', fontWeight: '600'}} target='_blank' rel='noopener norefferer' >Live Demo</a></button>
+                    <button className='btn'><a href={p.github} style={{textDecoration: 'none', color: '#000000', fontWeight: '600'}} target='_blank' rel="noreferrer" >GitHub</a></button>
+                    <button className='btn'><a href={p.liveDemo} style={{textDecoration: 'none', color: '#000000', fontWeight: '600'}} target='_blank' rel="noreferrer" >Live Demo</a></button>
                 </div>
             </motion.div>
             ))}

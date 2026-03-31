@@ -28,13 +28,13 @@ export default function Home() {
             <div style={{display: 'flex', alignItems: 'center'}}>
                 <p className='para'>Follow me:</p>
                 <div>
-                    <a className='media' href='https://www.instagram.com/ajay_paul_mummidi?igsh=MWxxa2o5ZXB5NW91NA==' target='_blank' rel='noopener norefferer'><IoLogoInstagram /></a>
-                    <a className='media' href='https://www.linkedin.com/in/ajay-paul-mummidi-1133251b8/' target='_blank' rel='noopener norefferer'><IoLogoLinkedin /></a>
+                    <a className='media' href='https://www.instagram.com/ajay_paul_mummidi?igsh=MWxxa2o5ZXB5NW91NA==' target='_blank' rel="noreferrer"><IoLogoInstagram /></a>
+                    <a className='media' href='https://www.linkedin.com/in/ajay-paul-mummidi-1133251b8/' target='_blank' rel="noreferrer"><IoLogoLinkedin /></a>
                 </div>
             </div>
         </div>
         <div className='section2'>
-            <img className='img' src="/images/Myimage.jpeg" alt="My Image"/>
+            <img className='img' src="/images/Myimage.jpeg" alt="profile"/>
         </div>
       </motion.div>
     </section>
