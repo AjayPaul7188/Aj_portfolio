@@ -1,0 +1,45 @@
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-tab {
+    background: linear-gradient(135deg, #020617, #0f172a, #1e293b);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-left: 15px;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.projects {
+    display: flex;
+}
+
+.project-img {
+    height: 100px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #22d3ee;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    background-color: #0d9488;
+    transition: all 0.3s ease;
+    padding: 15px;
+}
